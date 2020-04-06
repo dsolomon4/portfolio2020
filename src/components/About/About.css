@@ -1,0 +1,28 @@
+html, body {
+   margin: 0px;
+}
+  
+.aboutMe {
+     padding-top: 130px;
+     width: 100%;
+     background: rgb(201, 196, 218);
+     text-align: center;
+}
+
+.aboutContainer {
+    padding: 15px 250px;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .aboutMe {
+      width: 100%;
+      height: 50%;
+      text-align: center;
+    }
+  
+    .aboutContainer {
+        padding: 15px 20px;
+    }
+  }
+  

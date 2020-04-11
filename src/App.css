@@ -1,0 +1,8 @@
+html, body {
+    margin: 0px;
+    scroll-behavior: smooth;
+ }
+
+.sectionHeader {
+ color: red;
+}

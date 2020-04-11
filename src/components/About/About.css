@@ -1,16 +1,12 @@
-html, body {
-   margin: 0px;
-}
-  
 .aboutMe {
-     padding-top: 130px;
-     width: 100%;
-     background: rgb(201, 196, 218);
-     text-align: center;
+  padding: 130px 0px;
+  width: 100%;
+  background: rgb(201, 196, 218);
+  text-align: center;
 }
 
 .aboutContainer {
-    padding: 15px 250px;
+  padding: 15px 250px;
 }
 
 @media only screen and (max-width: 480px) {

@@ -12,7 +12,8 @@
 
 }
 
-.homeButton {
+/* .homeButton {
+    display: initial;
     float: left;
     width: 350px;
     height: 90px;
@@ -24,10 +25,11 @@
     text-align: center;
     text-decoration: none;
 
-}
+} */
 
 nav {
-    float: right;
+    /* float: right; */
+    text-align: center;
     margin: 25px;
 }
 
@@ -46,8 +48,8 @@ nav a:first-child {
 }
 
 
-  
   @media only screen and (max-width: 480px) {
+
 
     nav {
       width: 100%;
@@ -57,12 +59,9 @@ nav a:first-child {
   
     nav a {
       width: 30%;
-      padding-left: 0;
+      padding: 6px 20px;
       margin-left: 0;
-    }
-    .homeButton {
-        text-align: center;
-        padding: 0 15px;
+      border:hidden;
     }
   }
   

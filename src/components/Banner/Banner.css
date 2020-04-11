@@ -1,0 +1,25 @@
+.bannerContainer {
+    padding: 130px 0px;
+    width: 100%;
+    background: rgb(53, 44, 82);
+    text-align: center;
+}
+
+.bannerSub {
+   padding: 15px 250px;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .bannerContainer {
+     width: 100%;
+     height: 50%;
+     text-align: center;
+     /* display: none; */
+   }
+ 
+   .bannerSub {
+       padding: 15px 20px;
+   }
+ }
+ 

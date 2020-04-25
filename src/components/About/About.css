@@ -1,12 +1,23 @@
 .aboutMe {
-  padding: 130px 0px;
+  padding: 40px 0px;
   width: 100%;
-  background: rgb(201, 196, 218);
+  background: #ede7f6;
   text-align: center;
 }
 
 .aboutContainer {
   padding: 15px 250px;
+}
+
+.aboutHr {
+  width: 300px;
+  border: 10px solid #b388ff;
+}
+
+.bio {
+  width: 650px;
+  margin-top: 25px;
+  margin-left: 350px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -19,6 +30,12 @@
   
     .aboutContainer {
         padding: 15px 20px;
+    }
+
+    .bio {
+      width: 100%;
+      margin-top: 25px;
+      margin-left: 10px;
     }
   }
   

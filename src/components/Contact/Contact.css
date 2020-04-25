@@ -1,14 +1,14 @@
 .contactContainer {
     padding:  50px 0px;
     width: 100%;
-    background: rgb(180, 170, 211);
+    background: #ede7f6;
 
 }
 
 .contactSub {
    padding: 15px 250px;
    text-align: center;
-   font-size: 30px;
+   font-size: 25px;
    font-weight: 700;
    line-height: 80px;
    color: black;
@@ -18,7 +18,7 @@
 
 .contactSub a {
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
     line-height: 80px;
     color: black;
@@ -26,6 +26,11 @@
     padding: 0px 15px;
  
  }
+
+ .contactHr {
+    width: 300px;
+    border: 10px solid #b388ff;
+  }
 
 @media only screen and (max-width: 480px) {
 

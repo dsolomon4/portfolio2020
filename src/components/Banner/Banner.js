@@ -2,15 +2,26 @@ import React from 'react';
 
 import './Banner.css'
 
-const Banner = () => (
-    <div className="bannerContainer" id="home">
+import BackgroundImg from '../../images/opt.png'
+
+const Banner = () => {
+
+    const imageStyle = {
+        backgroundImage: `url(${BackgroundImg})`,
+      };
+    
+    return (
+    <div className="bannerContainer" id="home" style={ imageStyle}>
         <div className="bannerSub">
 
-        <h3> Desiree Solomon </h3>
-        <h6> Web Developer</h6>
+        <div className="bannerName">
+        <h2 className="name"> Desiree Solomon </h2>
+        <h5> WEB DEVELOPER</h5>
+        </div>
 
         </div>
     </div>
-);
+)
+};
 
 export default Banner;

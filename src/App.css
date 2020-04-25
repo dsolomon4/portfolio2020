@@ -3,6 +3,34 @@ html, body {
     scroll-behavior: smooth;
  }
 
-.sectionHeader {
- color: red;
+.sectionHeader{
+    color: black;
+    font-family: 'lora', serif;
+    font-weight: 900;
+    font-size: 35px;
+
 }
+
+ p {
+    color: black;
+    font-family: 'lora', serif;
+   
+   }
+
+
+@media only screen and (max-width: 480px) {
+
+    html, body {
+        width: 100;
+        margin: 0px 0px;
+     }
+
+     .sectionHeader{
+        color: black;
+        font-family: 'lora', serif;
+        font-weight: 500;
+        font-size: 35px;
+    
+    }
+ }
+ 

@@ -2,7 +2,7 @@
     padding:  50px 0px;
     width: 100%;
     background: rgb(162, 140, 228);
-
+    text-align: center;
 }
 
 .portfolioSub {
@@ -11,21 +11,33 @@
    font-size: 30px;
    font-weight: 700;
    line-height: 80px;
-   color: black;
+   color: white;
    text-decoration: none;
 
 }
 
-/* .portfolioSub a {
-    text-align: center;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 80px;
-    color: black;
-    text-decoration: none;
-    padding: 0px 15px;
- 
- } */
+.portfolioPics img {
+    height: 150px;
+    width: 250px;
+
+}
+
+.portfolioPics {
+    padding: 10px;
+    margin: 10px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.portHr {
+    width: 300px;
+    border: 10px solid #ede7f6;
+  }
+
+
 
 @media only screen and (max-width: 480px) {
 
@@ -40,17 +52,11 @@
        text-align: center;
    }
 
-   /* .contactSub a {
-    text-align: center;
-    font-size: 30px;
-    font-weight: 200;
-    line-height: 40px;
-    color: black;
-    text-decoration: none;
-    padding: 0px 60px;
-    margin: 15px 0;
+   .row {
+    display: inherit;
 
- 
- } */
+}
+
+
  }
  

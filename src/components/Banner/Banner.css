@@ -1,25 +1,60 @@
 .bannerContainer {
-    padding: 130px 0px;
-    width: 100%;
-    background: rgb(53, 44, 82);
+    margin-top: 25px;
+    padding: 220px 20px;
+    width: 98%;
+    height: 100%;
     text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
 .bannerSub {
-   padding: 15px 250px;
+   text-align: center;
+   width: 400px;
+   border: 15px solid #b388ff;
+   padding: 10px;
+   margin: 20px 700px;
 }
 
+
+.bannerName {
+    text-align: center;
+    background-color: white;
+    padding: 10px; 
+    color: black;
+    width: 250px;
+    padding: 50px;
+    margin: 25px;
+ }
+
+ .name{
+    font-family: 'Rock Salt', cursive;
+ }
 @media only screen and (max-width: 480px) {
 
     .bannerContainer {
-     width: 100%;
+     width: 98%;
      height: 50%;
      text-align: center;
      /* display: none; */
    }
  
    .bannerSub {
-       padding: 15px 20px;
+    width: 250px;
+    padding: 20px;
+    margin: 25px 15px;
    }
+
+   .bannerName {
+    text-align: center;
+    background-color: white;
+    padding: 10px; 
+    color: black;
+    width: 185px;
+    padding: 20px;
+    margin: 12px;
+ }
  }
  
